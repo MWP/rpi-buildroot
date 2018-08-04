@@ -1,1 +1,1 @@
-root=/dev/mmcblk0p2 rootwait rootfstype=ext4 console=tty1 console=ttyAMA0,115200
+dwc_otg.lpm_enable=0 root=/dev/mmcblk0p2 rootfstype=ext4 rootflags=commit=60,data=writeback elevator=deadline noatime nodiratime data=writeback rootwait console=tty1 console=ttyAMA0,115200
