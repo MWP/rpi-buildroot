@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Buildroot 2018.08-git-g6d7572ccc1-dirty Configuration
+# Buildroot 2018.08-git-gf6e14ac216-dirty Configuration
 #
 BR2_HAVE_DOT_CONFIG=y
 BR2_HOST_GCC_AT_LEAST_4_5=y
@@ -711,7 +711,16 @@ BR2_PACKAGE_GETTEXT=y
 # BR2_PACKAGE_CURLFTPFS is not set
 # BR2_PACKAGE_DAVFS2 is not set
 # BR2_PACKAGE_DOSFSTOOLS is not set
-# BR2_PACKAGE_E2FSPROGS is not set
+BR2_PACKAGE_E2FSPROGS=y
+# BR2_PACKAGE_E2FSPROGS_DEBUGFS is not set
+# BR2_PACKAGE_E2FSPROGS_E2IMAGE is not set
+
+#
+# e4defrag needs a glibc or musl toolchain
+#
+BR2_PACKAGE_E2FSPROGS_FSCK=y
+# BR2_PACKAGE_E2FSPROGS_FUSE2FS is not set
+BR2_PACKAGE_E2FSPROGS_RESIZE2FS=y
 # BR2_PACKAGE_E2TOOLS is not set
 # BR2_PACKAGE_ECRYPTFS_UTILS is not set
 # BR2_PACKAGE_EXFAT is not set
