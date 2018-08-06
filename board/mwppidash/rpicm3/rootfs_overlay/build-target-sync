@@ -1,0 +1,3 @@
+rsync -rlptv -zz --progress mark@192.168.1.1:/data/local/rPi-mwp-buildroot/rpi-buildroot/output/target/usr mark@192.168.1.1:/data/local/rPi-mwp-buildroot/rpi-buildroot/output/target/etc ma
+rk@192.168.1.1:/data/local/rPi-mwp-buildroot/rpi-buildroot/output/target/lib mark@192.168.1.1:/data/local/rPi-mwp-buildroot/rpi-buildroot/output/target/bin mark@192.168.1.1:/data/local/rPi-mwp-buildroot/rpi-bui
+ldroot/output/target/sbin .
